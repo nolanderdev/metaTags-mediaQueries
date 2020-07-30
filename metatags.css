@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) {
+
+    header{
+        height: 8em;
+        width: 100%;
+        display: block;
+        background-color: crimson;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 25% 25% 25%;
+    }
+    #form{
+        display: flex;
+        background-color: cyan;
+        flex-direction: row;
+    }
+
+    .content{
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        height: 8em;
+        width: 100%;
+        display: block;
+        background-color:cyan;
+        grid-template-columns: 50%;
+        grid-template-rows: 25% 25% 25%;
+    }
+    #form{
+        display: flex;
+        background-color: crimson;
+        flex-direction: column;
+    }
+
+    .content{
+        justify-self: center;
+    }
+}
